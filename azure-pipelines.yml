@@ -12,8 +12,8 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-  ls
-  pwd
+- script:ls
+- script:pwd
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
